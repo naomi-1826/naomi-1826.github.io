@@ -2,9 +2,8 @@ var a
 function userName() {
     //get value from input field and save as a
     a = document.getElementById('name').value
-    window.alert(userName)
     //create LS key with value of "a" 
-    localStorage.setItem('uName', userName);
+    localStorage.setItem('uName', a);
     //automatically take user to page two.html 
     location.href = "two.html";
 }
